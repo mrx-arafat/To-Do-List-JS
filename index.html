@@ -8,13 +8,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="input-box">
-      <input class="input-field" type="text" />
-      <button class="btn-grad">Add</button>
+    <div class="container">
+      <div class="todo">
+        <div class="add-task">
+          <input type="text" class="addTask" />
+          <i class="fas fa-plus addBtn"></i>
+        </div>
+        <div class="list-tasks"></div>
+      <div class="tasks-statis">
+        <div class="count"><span class="all-tasks"></span> Tasks.</div>
+        <div class="completed">
+          <span class="completed-tasks">0</span> Tasks compeled.
+        </div>
+      </div>
     </div>
 
-    <div class="task-container">
-      <div class="task-list"></div>
-    </div>
+    <script src="script.js"></script>
   </body>
 </html>
